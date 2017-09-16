@@ -1,0 +1,593 @@
+[ 2017-09-16T01:26:10+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-09-16T10:06:57+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-09-16T10:07:08+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `shop_goods` WHERE `goods_name` = 'gg' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-09-16T10:15:22+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-16T10:15:27+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-09-16T10:15:38+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-16T10:16:41+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `shop_goods` WHERE `goods_name` = 'ads' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: auto D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Undefined index: goods_logo D:\wamp64\www\shop\APP\Admin\Model\GoodsModel.class.php 第 28 行.
+NOTIC: [8] Undefined index: goods_logo D:\wamp64\www\shop\APP\Admin\Model\GoodsModel.class.php 第 29 行.
+NOTIC: [8] Undefined index: tmp_name D:\wamp64\www\shop\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+NOTIC: [2] finfo_file(): Empty filename or path D:\wamp64\www\shop\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+NOTIC: [8] Undefined index: error D:\wamp64\www\shop\ThinkPHP\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [8] Undefined index: tmp_name D:\wamp64\www\shop\ThinkPHP\Library\Think\Upload.class.php 第 280 行.
+SQL: INSERT INTO `shop_goods` (`goods_name`,`price`,`goods_desc`,`is_on_sale`,`addtime`) VALUES ('ads','23','','1','1505528201') [ RunTime:0.0180s ]
+
+[ 2017-09-16T10:16:42+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `shop_goods` WHERE `goods_name` = 'ads' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-09-16T10:17:14+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `shop_goods` WHERE `goods_name` = 'ada' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: auto D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Undefined index: goods_logo D:\wamp64\www\shop\APP\Admin\Model\GoodsModel.class.php 第 28 行.
+NOTIC: [8] Undefined index: goods_logo D:\wamp64\www\shop\APP\Admin\Model\GoodsModel.class.php 第 29 行.
+NOTIC: [8] Undefined index: tmp_name D:\wamp64\www\shop\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+NOTIC: [2] finfo_file(): Empty filename or path D:\wamp64\www\shop\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+NOTIC: [8] Undefined index: error D:\wamp64\www\shop\ThinkPHP\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [8] Undefined index: tmp_name D:\wamp64\www\shop\ThinkPHP\Library\Think\Upload.class.php 第 280 行.
+SQL: INSERT INTO `shop_goods` (`goods_name`,`price`,`goods_desc`,`is_on_sale`,`addtime`) VALUES ('ada','24','','1','1505528234') [ RunTime:0.0010s ]
+
+[ 2017-09-16T10:21:18+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `shop_goods` WHERE `goods_name` = 'add' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: auto D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Undefined index: goods_logo D:\wamp64\www\shop\APP\Admin\Model\GoodsModel.class.php 第 28 行.
+NOTIC: [8] Undefined index: goods_logo D:\wamp64\www\shop\APP\Admin\Model\GoodsModel.class.php 第 29 行.
+NOTIC: [8] Undefined index: tmp_name D:\wamp64\www\shop\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+NOTIC: [2] finfo_file(): Empty filename or path D:\wamp64\www\shop\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+NOTIC: [8] Undefined index: error D:\wamp64\www\shop\ThinkPHP\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [8] Undefined index: tmp_name D:\wamp64\www\shop\ThinkPHP\Library\Think\Upload.class.php 第 280 行.
+SQL: INSERT INTO `shop_goods` (`goods_name`,`price`,`goods_desc`,`is_on_sale`,`addtime`) VALUES ('add','24','','1','1505528478') [ RunTime:0.0000s ]
+
+[ 2017-09-16T10:21:19+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `shop_goods` WHERE `goods_name` = 'add' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-09-16T10:50:04+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-09-16T10:51:11+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-09-16T10:52:17+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-09-16T10:53:51+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-09-16T10:55:17+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-09-16T10:55:48+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-09-16T10:59:10+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-09-16T10:59:26+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-09-16T11:12:34+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-09-16T11:13:27+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-09-16T11:13:54+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-09-16T11:14:53+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-09-16T11:15:16+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-09-16T11:23:58+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-09-16T11:25:44+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-09-16T11:26:29+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-09-16T11:27:06+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-09-16T11:27:28+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-09-16T11:28:14+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-09-16T11:28:36+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-16T11:29:00+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-09-16T11:29:17+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-09-16T11:29:49+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-09-16T11:30:46+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-16T11:31:18+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-16T11:31:55+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-16T11:33:02+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-16T11:33:16+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-16T11:37:03+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-16T11:37:24+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-16T11:37:40+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-16T11:41:02+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-16T11:42:27+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-16T11:52:42+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+
+[ 2017-09-16T11:53:59+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+
+[ 2017-09-16T11:54:20+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: goods D:\wamp64\www\shop\APP\Admin\Controller\GoodsController.class.php 第 9 行.
+
+[ 2017-09-16T11:58:31+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-09-16T11:58:43+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-09-16T11:58:49+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `shop_goods` WHERE `goods_name` = '阿达' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-09-16T12:01:05+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `shop_goods` WHERE `goods_name` = '最后测试FormData上传图片' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: auto D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp64\www\shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `shop_goods` (`goods_name`,`price`,`goods_desc`,`is_on_sale`,`addtime`,`logo`,`sm_logo`) VALUES ('最后测试FormData上传图片','998','','1','1505534465','images/2017-09-16/59bca2018984b.jpg','images/2017-09-16/sm_59bca2018984b.jpg') [ RunTime:0.0000s ]
+
+[ 2017-09-16T12:04:31+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `shop_goods` WHERE `goods_name` = '阿达22' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: auto D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp64\www\shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `shop_goods` (`goods_name`,`price`,`goods_desc`,`is_on_sale`,`addtime`,`logo`,`sm_logo`) VALUES ('阿达22','22','','1','1505534671','images/2017-09-16/59bca2cf5575d.jpg','images/2017-09-16/sm_59bca2cf5575d.jpg') [ RunTime:0.0010s ]
+
+[ 2017-09-16T12:07:19+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `shop_goods` WHERE `goods_name` = '4555' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: auto D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `shop_goods` (`goods_name`,`price`,`goods_desc`,`is_on_sale`,`addtime`) VALUES ('4555','4554','','1','1505534839') [ RunTime:0.0010s ]
+
+[ 2017-09-16T12:08:00+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `shop_goods` WHERE `goods_name` = '444' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: auto D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp64\www\shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `shop_goods` (`goods_name`,`price`,`goods_desc`,`is_on_sale`,`addtime`,`logo`,`sm_logo`) VALUES ('444','444','','1','1505534880','images/2017-09-16/59bca3a08aeb4.gif','images/2017-09-16/sm_59bca3a08aeb4.gif') [ RunTime:0.0010s ]
+
+[ 2017-09-16T13:09:24+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-09-16T13:09:51+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `shop_goods` WHERE `goods_name` = 'try again' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: auto D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-09-16T13:11:11+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `shop_goods` WHERE `goods_name` = 'try again' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: auto D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Array to string conversion D:\wamp64\www\shop\APP\Admin\Model\GoodsModel.class.php 第 26 行.
+SQL: INSERT INTO `shop_goods` (`goods_name`,`price`,`goods_desc`,`is_on_sale`,`addtime`) VALUES ('try again','168233','','1','1505538671') [ RunTime:0.0000s ]
+
+[ 2017-09-16T13:11:12+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `shop_goods` WHERE `goods_name` = 'try again' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-09-16T13:13:42+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `shop_goods` WHERE `goods_name` = 'try' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: price D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1303 行.
+
+[ 2017-09-16T13:14:07+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `shop_goods` WHERE `goods_name` = 'try' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: price D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1303 行.
+
+[ 2017-09-16T13:15:16+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `shop_goods` WHERE `goods_name` = 'try' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: auto D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `shop_goods` (`goods_name`,`price`,`goods_desc`,`is_on_sale`,`addtime`) VALUES ('try','233','345','1','1505538916') [ RunTime:0.0000s ]
+
+[ 2017-09-16T13:17:05+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `shop_goods` WHERE `goods_name` = 'ggg' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: auto D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `shop_goods` (`goods_name`,`price`,`goods_desc`,`is_on_sale`,`addtime`) VALUES ('ggg','333','44444444444444','1','1505539025') [ RunTime:0.0010s ]
+
+[ 2017-09-16T13:18:29+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `shop_goods` WHERE `goods_name` = 'best wishes' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: auto D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `shop_goods` (`goods_name`,`price`,`goods_desc`,`is_on_sale`,`addtime`) VALUES ('best wishes','168','','1','1505539109') [ RunTime:0.0000s ]
+
+[ 2017-09-16T13:22:07+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.1320s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `shop_goods` WHERE `goods_name` = '9' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: auto D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `shop_goods` (`goods_name`,`price`,`goods_desc`,`is_on_sale`,`addtime`) VALUES ('9','998','show show show','1','1505539327') [ RunTime:0.0000s ]
+
+[ 2017-09-16T13:34:20+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `shop_goods` WHERE `goods_name` = '坚持就是胜利' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: auto D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp64\www\shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `shop_goods` (`goods_name`,`price`,`goods_desc`,`is_on_sale`,`addtime`,`logo`,`sm_logo`) VALUES ('坚持就是胜利','998','<p>
+	坚持就是胜利，终于搞定了ajax上传文件，利用FormData对象实现就好，结果因为此编辑器问题又突然获取不到文本域的值，最后还好解决了！！！
+</p>
+<p>
+</p><pre class=\"prettyprint lang-js\">           window.editor = K.create(\'#goods_desc\',{  
+              afterBlur:function(){  
+                 this.sync();  //this.sync()将编辑器的内容设置到原来的textarea控件里。不然值获取不到，后台拿不到数据。
+              }  
+           }); </pre>
+','1','1505540060','images/2017-09-16/59bcb7dc61047.gif','images/2017-09-16/sm_59bcb7dc61047.gif') [ RunTime:0.0000s ]
+
+[ 2017-09-16T13:37:21+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-09-16T13:37:31+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `shop_goods` WHERE `goods_name` = '天然' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-09-16T13:37:37+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `shop_goods` WHERE `goods_name` = '天然' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-09-16T13:38:11+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `shop_goods` WHERE `goods_name` = '天然' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: auto D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp64\www\shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `shop_goods` (`goods_name`,`price`,`goods_desc`,`is_on_sale`,`addtime`,`logo`,`sm_logo`) VALUES ('天然','233','点','0','1505540291','images/2017-09-16/59bcb8c343003.gif','images/2017-09-16/sm_59bcb8c343003.gif') [ RunTime:0.0000s ]
+

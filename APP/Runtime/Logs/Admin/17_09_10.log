@@ -1,0 +1,27 @@
+[ 2017-09-10T19:59:24+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add
+ERR: 模板不存在:./APP/Admin/View/Goods/add.html
+
+[ 2017-09-10T21:19:34+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2017-09-10T21:27:20+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2017-09-10T21:28:38+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2017-09-10T21:30:19+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2017-09-10T21:30:49+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2017-09-10T21:45:20+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/list.html
+ERR: 非法操作:list
+
+[ 2017-09-10T21:45:38+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/list.html
+ERR: 非法操作:list
+
+[ 2017-09-10T21:46:12+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/list.html
+ERR: 非法操作:list
+

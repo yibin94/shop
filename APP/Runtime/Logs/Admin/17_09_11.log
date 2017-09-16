@@ -1,0 +1,78 @@
+[ 2017-09-11T00:32:28+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/Goods/add
+ERR: 非法操作:Goods
+
+[ 2017-09-11T00:34:26+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add
+ERR: 1264:Out of range value for column 'id' at row 1
+ [ SQL语句 ] : INSERT INTO `shop_goods` (`goods_name`,`price`,`id`,`is_on_sale`,`addtime`) VALUES ('毛衣2','666','2147483647','1','1505061266')
+
+[ 2017-09-11T00:34:55+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add
+ERR: 1264:Out of range value for column 'id' at row 1
+ [ SQL语句 ] : INSERT INTO `shop_goods` (`goods_name`,`price`,`id`,`is_on_sale`,`addtime`) VALUES ('毛衣2','666','2147483647','1','1505061295')
+
+[ 2017-09-11T00:36:23+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add
+ERR: 1264:Out of range value for column 'id' at row 1
+ [ SQL语句 ] : INSERT INTO `shop_goods` (`goods_name`,`price`,`id`,`is_on_sale`,`addtime`) VALUES ('毛衣2','666','2147483647','0','1505061383')
+
+[ 2017-09-11T00:36:48+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add
+ERR: 1264:Out of range value for column 'id' at row 1
+ [ SQL语句 ] : INSERT INTO `shop_goods` (`goods_name`,`price`,`id`,`is_on_sale`,`addtime`) VALUES ('mao','999','214444444','1','1505061408')
+
+[ 2017-09-11T15:36:55+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add
+ERR: 1264:Out of range value for column 'id' at row 1
+ [ SQL语句 ] : INSERT INTO `shop_goods` (`goods_name`,`price`,`id`,`is_on_sale`,`addtime`) VALUES ('adad','233','2147483647','1','1505115415')
+
+[ 2017-09-11T15:37:39+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add
+ERR: 1264:Out of range value for column 'id' at row 1
+ [ SQL语句 ] : INSERT INTO `shop_goods` (`goods_name`,`price`,`id`,`is_on_sale`,`addtime`) VALUES ('dad','2','2147483646','1','1505115459')
+
+[ 2017-09-11T15:47:50+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add
+ERR: 1264:Out of range value for column 'id' at row 1
+ [ SQL语句 ] : INSERT INTO `shop_goods` (`goods_name`,`price`,`goods_desc`,`is_on_sale`,`addtime`) VALUES ('da','1','ss','1','1505116069')
+
+[ 2017-09-11T15:49:14+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add
+ERR: 1264:Out of range value for column 'id' at row 1
+ [ SQL语句 ] : INSERT INTO `shop_goods` (`goods_name`,`price`,`goods_desc`,`is_on_sale`,`addtime`) VALUES ('adad','2','dada','1','1505116154')
+
+[ 2017-09-11T15:51:38+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add
+ERR: 1264:Out of range value for column 'id' at row 1
+ [ SQL语句 ] : INSERT INTO `shop_goods` (`goods_name`,`price`,`goods_desc`,`is_on_sale`,`addtime`) VALUES ('adad','2','dada','1','1505116298')
+
+[ 2017-09-11T15:51:48+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/
+ERR: 非法操作:index
+
+[ 2017-09-11T15:57:13+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add
+ERR: 1264:Out of range value for column 'id' at row 1
+ [ SQL语句 ] : INSERT INTO `shop_goods` (`goods_name`,`price`,`goods_desc`,`is_on_sale`,`addtime`) VALUES ('last2','233','再继续正常添加','1','1505116633')
+
+[ 2017-09-11T16:10:46+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/
+ERR: 非法操作:index
+
+[ 2017-09-11T16:16:50+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add
+ERR: 1264:Out of range value for column 'id' at row 1
+ [ SQL语句 ] : INSERT INTO `shop_goods` (`goods_name`,`price`,`goods_desc`,`is_on_sale`,`addtime`) VALUES ('dad','2','dada','1','1505117810')
+
+[ 2017-09-11T16:22:49+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/
+ERR: 非法操作:index
+
+[ 2017-09-11T20:07:11+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add
+ERR: 不存在的图像文件
+
+[ 2017-09-11T20:08:14+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/
+ERR: 非法操作:index
+
+[ 2017-09-11T20:08:35+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add
+ERR: 不存在的图像文件
+
+[ 2017-09-11T20:09:32+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/
+ERR: 非法操作:index
+
+[ 2017-09-11T20:12:33+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/
+ERR: 非法操作:index
+
+[ 2017-09-11T20:13:06+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add
+ERR: 1048:Column 'sm_logo' cannot be null
+ [ SQL语句 ] : INSERT INTO `shop_goods` (`goods_name`,`price`,`goods_desc`,`is_on_sale`,`addtime`,`logo`,`sm_logo`) VALUES ('php','555','single','1','1505131985','images/2017-09-11/59b67dd1ca347.jpg',NULL)
+
+[ 2017-09-11T20:13:58+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/
+ERR: 非法操作:index
+

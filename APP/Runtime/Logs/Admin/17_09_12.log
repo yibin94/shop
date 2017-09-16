@@ -1,0 +1,36 @@
+[ 2017-09-12T09:50:09+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/listGoods
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2017-09-12T09:51:12+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/listGoods
+ERR: Think\Model:getData方法不存在！
+
+[ 2017-09-12T09:51:28+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/listGoods
+ERR: Think\Model:getData方法不存在！
+
+[ 2017-09-12T09:51:30+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/listGoods
+ERR: Think\Model:getData方法不存在！
+
+[ 2017-09-12T09:51:54+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/listGoods
+ERR: 1054:Unknown column 'status' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `shop_goods` WHERE ( status=1 ) LIMIT 1  
+
+[ 2017-09-12T09:52:26+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/listGoods
+ERR: Think\Model:assign方法不存在！
+
+[ 2017-09-12T10:06:00+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/listGoods
+ERR: XML标签语法错误 : $list as $v
+
+[ 2017-09-12T10:06:31+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/listGoods
+ERR: XML标签语法错误 : list as $v
+
+[ 2017-09-12T10:06:37+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/listGoods
+ERR: XML标签语法错误 : list as v
+
+[ 2017-09-12T14:48:01+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/listGoods?goods_name=233&start_price=12&end_price=23&is_on_sale=-1&is_delete=-1&addtime_sort=1&goods_price_sort=1
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'asc LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `shop_goods` WHERE `goods_name` LIKE '%233%' AND `price` BETWEEN '12' AND '23' AND `addtime` asc LIMIT 1  
+
+[ 2017-09-12T15:00:34+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/listGoods/p/1.html?goods_name=&start_price=&end_price=&is_on_sale=-1&is_delete=-1&addtime_sort=1&goods_price_sort=1
+ERR: 1054:Unknown column 'order' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `shop_goods` ORDER BY `order`,`addtime` asc LIMIT 0,3  
+

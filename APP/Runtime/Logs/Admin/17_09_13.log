@@ -1,0 +1,9 @@
+[ 2017-09-13T12:54:23+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/listGoods
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2017-09-13T21:27:20+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/Goodlist
+ERR: 非法操作:Goodlist
+
+[ 2017-09-13T21:33:31+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/
+ERR: 非法操作:index
+

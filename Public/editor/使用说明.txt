@@ -1,0 +1,12 @@
+<script charset="utf-8" src="__PUBLIC__/editor/kindeditor.js"></script>
+<script charset="utf-8" src="__PUBLIC__/editor/lang/zh-CN.js"></script>
+<script type="text/javascript">
+        KindEditor.ready(function(K) {
+                //window.editor = K.create('#goods_desc');
+           window.editor = K.create('#goods_desc',{  
+              afterBlur:function(){  
+                 this.sync();  //this.sync()将编辑器的内容设置到原来的textarea控件里。不然值获取不到，后台拿不到数据。
+              }  
+           });  
+        });
+</script>

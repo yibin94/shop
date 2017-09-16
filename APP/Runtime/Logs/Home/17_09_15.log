@@ -1,0 +1,3 @@
+[ 2017-09-15T00:19:30+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/modify/id/C('uploadConfig.rootPath'.$goods['sm_logo'])
+ERR: 无法加载控制器:Goods
+
