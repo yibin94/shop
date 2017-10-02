@@ -1,0 +1,39 @@
+<layout name="Index/header_footer" />
+<div class="main-div">
+    <form name="main_form" method="POST" action="__SELF__?p={$pageIndex}">
+    	<input type="hidden" name="id" value="{$cate.id}"/>
+        <table cellspacing="1" cellpadding="3" width="100%">
+			<tr>
+				<td class="label">上级权限：</td>
+				<td>
+                    <select name="parent_id">
+                      <option value="{$cate.parent_id}">{$parCate}</option>
+                      <if condition="$cate['parent_id'] neq 0">
+                         <option value="0">顶级权限</option>
+                      </if>
+                      <foreach name="cateRes" item="v">
+                         <if condition="$v['id'] eq $cate['parent_id']"><?php continue;?></if>
+                         <if condition="$v['id'] neq $cate['id']"><!--使用点语法会出错-->
+                             <option value="{$v['id']}">{$v['cat_name']}</option>;
+                         </if> 
+                      </foreach>
+                      
+					</select>
+				</td>
+			</tr>
+            <tr>
+                <td class="label">分类名称：</td>
+                <td>
+                    <input  type="text" name="cat_name" value="{$cate.cat_name}"/>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="99" align="center">
+                    <input type="submit" class="button" value=" 确定 "  style="cursor:pointer;"/>
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+<script>
+</script>

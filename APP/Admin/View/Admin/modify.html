@@ -1,0 +1,41 @@
+<layout name="Index/header_footer" />
+<div class="main-div">
+    <form name="main_form" method="POST" action="__SELF__">
+        <input type="hidden" name="id" value="{$adminRes.id}"/>
+        <table cellspacing="1" cellpadding="3" width="100%">
+            <tr>
+              <td class="label">用户名</td>
+              <td><input type="text" name="username" value="{$adminRes.username}"/></td>
+            </tr>
+            <tr>
+                <td class="label">密  码</td>
+                <td><input type="text" name="password" value="" />&nbsp;<b>留空则默认不修改密码</b></td>
+            </tr>
+            <tr>
+                <td class="label">所拥有的权限</td>
+                <td>
+                  <foreach name="roles" item="r">
+                     <input type="checkbox" name="role_name[]" value="{$r.id}" 
+                     <if condition="strpos(','.$adminRes['role_name'].',',','.$r['role_name'].',')!==false">checked
+                     </if>
+                     />{$r.role_name}&nbsp;&nbsp;&nbsp;&nbsp;
+                  </foreach>   
+                </td>
+            </tr>
+            <if condition="$adminRes['id'] neq 1">
+              <tr>
+                  <td class="label">是否启用</td>
+                  <td>
+                     是：<input type="radio" name="is_use" value="1" {$adminRes['is_use']?'checked':''}/>
+                     否：<input type="radio" name="is_use" value="0" {$adminRes['is_use']?'':'checked'}/>
+                  </td>
+              </tr>
+            </if>
+            <tr>
+                <td colspan="100" align="center">
+                    <input type="submit" class="button" value=" 确定 " style="cursor:pointer;"/>
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>

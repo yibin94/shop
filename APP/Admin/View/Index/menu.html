@@ -123,35 +123,47 @@ body {
 <div id="main-div">
     <div id="menu-list">
         <ul id="menu-ul">
+            <foreach name="privileges" item="v">
+               <li class="explode" key="02_cat_and_goods" name="menu">
+                {$v.pri_name}
+                <ul>
+                  <foreach name="v.children" item="child">
+                    <li class="menu-item"><a href="<?php echo U($child["module_name"].'/'.$child["controller_name"].'/'.$child["action_name"]);?>" target="main-frame">{$child['pri_name']}</a></li>
+                  </foreach>
+                </ul>
+               </li>
+            </foreach>
+            <!--
             <li class="explode" key="02_cat_and_goods" name="menu">
             商品管理
                 <ul>
                     <li class="menu-item"><a href="{:U('Goods/listGoods')}" target="main-frame">商品列表</a></li>
-                    <li class="menu-item"><a href="{:U('Goods/add')}" target="main-frame">添加新商品</a></li>
-                    <li class="menu-item"><a href="#" target="main-frame">商品分类</a></li>
-                    <li class="menu-item"><a href="#" target="main-frame">商品品牌</a></li>
-                    <li class="menu-item"><a href="#" target="main-frame">商品回收站</a></li>
                 </ul>
             </li>
-
-            <li class="explode" key="04_order" name="menu">
-            订单管理
+            <li class="explode" key="02_cat_and_goods" name="menu">
+            类别管理
                 <ul>
-                    <li class="menu-item"><a href="orderList.html" target="main-frame">订单列表</a></li>
-                    <li class="menu-item"><a href="orderQuery.html" target="main-frame">订单查询</a></li>
-                    <li class="menu-item"><a href="orderAdd.html" target="main-frame">添加订单</a></li>
-                    <li class="menu-item"><a href="delivery_list.html" target="main-frame">发货单列表</a></li>
-                    <li class="menu-item"><a href="back_list.html" target="main-frame">退货单列表</a></li>
+                    <li class="menu-item"><a href="{:U('Category/listCate')}" target="main-frame">商品分类列表</a></li>
                 </ul>
             </li>
-            <li class="explode" key="08_members" name="menu">
-            会员管理
+            <li class="explode" key="02_cat_and_goods" name="menu">
+            权限管理
                 <ul>
-                    <li class="menu-item"><a href="userList.html" target="main-frame">会员列表</a></li>
-                    <li class="menu-item"><a href="userAdd.html" target="main-frame">添加会员</a></li>
-                    <li class="menu-item"><a href="userMessage.html" target="main-frame">会员留言</a></li>
+                    <li class="menu-item"><a href="{:U('Privilege/listPri')}" target="main-frame">权限列表</a></li>
                 </ul>
             </li>
+            <li class="explode" key="02_cat_and_goods" name="menu">
+            角色管理
+                <ul>
+                    <li class="menu-item"><a href="{:U('Role/listRole')}" target="main-frame">角色列表</a></li>
+                </ul>
+            </li>
+            <li class="explode" key="02_cat_and_goods" name="menu">
+            管理员管理
+                <ul>
+                    <li class="menu-item"><a href="{:U('Admin/listAdmin')}" target="main-frame">管理员列表</a></li>
+                </ul>
+            </li>-->
         </ul>
     </div>
     <div id="help-div" style="display:none">

@@ -1,0 +1,12 @@
+[ 2017-10-01T00:53:39+08:00 ] 127.0.0.1 /shop/index.php/Admin/Index/menu.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where a.id=1' at line 1
+ [ SQL语句 ] : select a.username,d.* from shop_admin a left join shop_admin_role b on a.id=b.admin_id left join shop_role_privilege c on b.role_id=c.role_id left join shop_privilege d on c.pri_id=d.id order by d.id where a.id=1
+
+[ 2017-10-01T16:04:22+08:00 ] 127.0.0.1 /shop/index.php/Admin/Index/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Index AND action_name=index' at line 1
+ [ SQL语句 ] : select * from shop_privilege where module_name=Admin AND controller_name=Index AND action_name=index
+
+[ 2017-10-01T23:37:59+08:00 ] 127.0.0.1 /shop/index.php/Admin/Index/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Index AND action_name=index' at line 1
+ [ SQL语句 ] : select * from shop_privilege where module_name=Admin AND controller_name=Index AND action_name=index
+

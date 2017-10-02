@@ -1,0 +1,38 @@
+[ 2017-09-25T14:51:17+08:00 ] 127.0.0.1 /shop/index.php/Admin/Role/modify/id/8/p/3.html
+ERR: 1146:Table 'shop.shop__role_privilege' doesn't exist
+ [ SQL语句 ] : select pri_i from shop__role_privilege where role_id=8
+
+[ 2017-09-25T14:51:42+08:00 ] 127.0.0.1 /shop/index.php/Admin/Role/modify/id/8/p/3.html
+ERR: 1054:Unknown column 'pri_i' in 'field list'
+ [ SQL语句 ] : select pri_i from shop_role_privilege where role_id=8
+
+[ 2017-09-25T14:57:39+08:00 ] 127.0.0.1 /shop/index.php/Admin/Role/modify/id/8/p/3.html
+ERR: Think\Model:getFields方法不存在！
+
+[ 2017-09-25T19:47:05+08:00 ] 127.0.0.1 /shop/index.php/Admin/Role/listRole.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP BY a.id LIMIT 0,2' at line 1
+ [ SQL语句 ] : SELECT a.*,GROUP_CONCAT(c.pri_name) pri_name FROM `shop_role` left join shop_role_privilege b on a.id=b.role_id left join shop_privilege c  GROUP BY a.id LIMIT 0,2  
+
+[ 2017-09-25T19:48:28+08:00 ] 127.0.0.1 /shop/index.php/Admin/Role/listRole.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP BY a.id LIMIT 0,2' at line 1
+ [ SQL语句 ] : SELECT a.*,GROUP_CONCAT(c.pri_name) pri_name FROM shop_role a left join shop_role_privilege b on a.id=b.role_id left join shop_privilege c  GROUP BY a.id LIMIT 0,2  
+
+[ 2017-09-25T19:51:43+08:00 ] 127.0.0.1 /shop/index.php/Admin/Role/listRole.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP BY a.id LIMIT 0,2' at line 1
+ [ SQL语句 ] : SELECT a.*,GROUP_CONCAT(c.pri_name) pri_name FROM `shop_role` left join shop_role_privilege b on a.id=b.role_id left join shop_privilege c  GROUP BY a.id LIMIT 0,2  
+
+[ 2017-09-25T19:52:18+08:00 ] 127.0.0.1 /shop/index.php/Admin/Role/listRole.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 0,2' at line 1
+ [ SQL语句 ] : SELECT a.*,GROUP_CONCAT(c.pri_name) pri_name FROM `shop_role` left join shop_role_privilege b on a.id=b.role_id left join shop_privilege c  LIMIT 0,2  
+
+[ 2017-09-25T19:54:56+08:00 ] 127.0.0.1 /shop/index.php/Admin/Role/listRole.html
+ERR: 1051:Unknown table 'a'
+ [ SQL语句 ] : SELECT a.*,GROUP_CONCAT(c.pri_name) pri_name FROM `shop_role` left join shop_role_privilege b on a.id=b.role_id left join shop_privilege c on b.pri_id=c.id  GROUP BY a.id LIMIT 0,2  
+
+[ 2017-09-25T19:55:52+08:00 ] 127.0.0.1 /shop/index.php/Admin/Role/listRole.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'a left join shop_role_privilege b on a.id=b.role_id left join shop_privilege c o' at line 1
+ [ SQL语句 ] : SELECT a.*,GROUP_CONCAT(c.pri_name) pri_name FROM `shop_role` shop_role a left join shop_role_privilege b on a.id=b.role_id left join shop_privilege c on b.pri_id=c.id  GROUP BY a.id LIMIT 0,2  
+
+[ 2017-09-25T20:16:04+08:00 ] 127.0.0.1 /shop/index.php/Admin/Role/listRole.html
+ERR: Think\Model:ount方法不存在！
+

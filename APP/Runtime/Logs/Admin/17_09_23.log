@@ -1,0 +1,14 @@
+[ 2017-09-23T09:47:30+08:00 ] 127.0.0.1 /shop/index.php/Admin/Category/modify/id/2.html
+ERR: XML标签语法错误 : condition="$v.id neq $cate.id"
+                          <option value="{$v.id}"
+
+[ 2017-09-23T09:55:56+08:00 ] 127.0.0.1 /shop/index.php/Admin/Category/modify/id/2.html
+ERR: XML标签语法错误 : condition="$cate.parent_id eq 0"
+                        <option value="0"
+
+[ 2017-09-23T17:43:52+08:00 ] 127.0.0.1 /shop/index.php/Admin/Privilege/lst.html
+ERR: Think\Controller:setPageBtn方法不存在！
+
+[ 2017-09-23T23:42:56+08:00 ] 127.0.0.1 /shop/index.php/Admin/Privilege/lst.html
+ERR: 非法操作:lst
+

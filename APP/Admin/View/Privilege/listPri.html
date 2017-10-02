@@ -1,0 +1,31 @@
+<layout name="Index/header_footer" />
+
+<!-- 列表 -->
+<div class="list-div" id="listDiv">
+	<table cellpadding="3" cellspacing="1">
+    	<tr>
+            <th >权限名称</th>
+            <th >模块名称</th>
+            <th >控制器名称</th>
+            <th >方法名称</th>
+            <th >上级权限的 id，0 代表顶级权限</th>
+			<th width="60">操  作</th>
+        </tr>     
+        <foreach name="priRes" item="v">      
+    		<tr class="tron">
+				<td>{$v.pri_name}</td>
+				<td>{$v.module_name}</td>
+				<td>{$v.controller_name}</td>
+				<td>{$v.action_name}</td>
+				<td>{$v.parent_id}</td>
+		        <td align="center">
+		        	<a href="{:U('Privilege/modify',array('id'=>$v['id'],'p'=>$pageIndex))}" title="修改">修改</a> |
+	                <a href="{:U('Privilege/delete',array('id'=>$v['id'],'p'=>$pageIndex))}" onclick="return confirm('确定要删除吗？');" title="移除">移除</a> 
+		        </td>
+    	    </tr> 
+        </foreach>
+        <tr>
+            <td align="center" nowrap="true" colspan="99" height="30">{$page}</td>
+        </tr>
+	</table>
+</div>

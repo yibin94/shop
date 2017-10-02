@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>管理中心 - 商品列表 </title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="__AdminCss__/general.css" rel="stylesheet" type="text/css" />
+<link href="__AdminCss__/main.css" rel="stylesheet" type="text/css" />
+<!-- 引入日期插件文件 -->
+<link href="__PUBLIC__/datepicker/jquery-ui-1.9.2.custom.min.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/datepicker/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/datepicker/jquery-ui-1.9.2.custom.min.js"></script>
+</head>
+<body>
+<h1>
+    <span class="action-span"><a href="{$link}?p={$pageIndex}">{$btn}</a></span>
+    <span class="action-span1"><a href="{:U('Index/index')}">管理中心</a>&nbsp;</span>
+    <span id="search_id" class="action-span1"> - {$title} </span>
+    <div style="clear:both"></div>
+</h1>
+{__CONTENT__}
+<div id="footer">
+&copy; 2017-2017 by yibin</div>
+</body>
+</html>
+<script type="text/javascript" src="__AdminJs__/tron.js"></script>

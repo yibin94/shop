@@ -1,0 +1,98 @@
+<layout name="Index/header_footer" /><!--以当前模板所在目录View开始找-->
+<!-- 列表 -->
+<div class="list-div" id="listDiv">
+	<table cellpadding="3" cellspacing="1">
+    	<tr>
+            <th>用户名</th>
+            <th>密码</th>
+            <th>所拥有的角色</th>
+            <th>是否启用</th>
+			<th width="60">操作</th>
+        </tr>
+        <foreach name="adminRes" item="v">
+           <tr class="tron" style="text-align:center;">
+               <td>{$v.username}</td>
+               <td>{$v.password}</td>
+               <td>{$v.role_name}</td>
+               <td class="state" id="{$v.id}" cur_adminid="{$curAdminId}" style="cursor:pointer;">{$v['is_use']?'启用':'禁用'}</td>
+               <td>
+                   <a href="{:U('Admin/modify',array('id'=>$v['id'],'p'=>$pageIndex))}" class="modify" id="{$v.id}" cur_adminid="{$curAdminId}" style="text-decoration: none;">修改</a> <if condition="$v['id'] neq 1">| 
+                   <a href="{:U('Admin/delete',array('id'=>$v['id'],'p'=>$pageIndex))}" class="delete" id="{$v.id}" cur_adminid="{$curAdminId}" style="text-decoration: none;">删除</a></if>
+               </td>
+           </tr>
+        </foreach>
+        <tr>
+            <td colspan="100" align="center">{$page}</td>
+        </tr>
+	</table>
+</div>
+<script type="text/javascript">
+   //使用ajax处理状态的切换
+   $('.state').click(function(){
+     var state = $(this).html();
+     //当前点击记录的管理员id
+     var id = $(this).attr('id');
+     //当前登录的管理员id
+     var curAdminId = $(this).attr('cur_adminid');
+     var self = $(this);
+     if(state=="启用" && id==1){
+          alert('超级管理员不能被禁用！');
+          return false;
+     }else if(id != curAdminId && curAdminId != 1){
+      //当前点击记录的管理员id与当前管理员id值不相同并且当前管理员不是超级管理员就不能切换管理员状态。
+          alert('权限不足！无法修改！');
+          return false;
+     }else{
+         var is_use = (state=="启用"?1:0);
+         $.ajax({
+            url:"{:U('Admin/switchState','','')}/id/"+id+"/state/"+is_use,
+            type:'GET',
+            data:String,
+            success:function(data){
+               if(data==1){
+                 self.html('启用');
+               }else if(data==0){
+                 self.html('禁用');
+               }
+            }
+         });
+     }
+   });
+
+      $('.modify').click(function(){
+          var res = confirm("你确认要修改？");
+          //当前点击记录的管理员id
+          var id = $(this).attr('id');
+          //当前登录的管理员id
+          var curAdminId = $(this).attr('cur_adminid');
+          if(res==true){
+            //当前点击记录的管理员id匹配当前登录的管理员id或者当前登录管理员是超级管理员。
+            if(id==curAdminId||curAdminId==1)
+              return true;
+            else{
+              alert('权限不足！无法修改！');
+              return false;
+            }
+          }else{
+              return false;
+          }
+      });
+      $('.delete').click(function(){
+          var res = confirm('你确定删除吗？');
+          //当前点击记录的管理员id
+          var id = $(this).attr('id');
+          //当前登录的管理员id
+          var curAdminId = $(this).attr('cur_adminid');
+          if(res==true){
+            //当前点击记录的管理员id匹配当前登录的管理员id或者当前登录管理员是超级管理员。
+            if(id==curAdminId||curAdminId==1)
+              return true;
+            else{
+              alert('权限不足！无法删除！');
+              return false;
+            }
+          }else{
+              return false;
+          }
+      });
+</script>

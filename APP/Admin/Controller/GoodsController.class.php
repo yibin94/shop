@@ -1,16 +1,14 @@
 <?php
 namespace Admin\Controller;
-use Think\Controller;
 header('Content-Type:text/html;charset=utf-8');
 
-class GoodsController extends Controller{
+class GoodsController extends ValidateController{//继承权限验证
     //添加商品操作
     public function add(){
         if(IS_POST){
-            //D和M的区别：D生成我们自己创建的模型对象，M生成TP自带的模型对象
-            //a.接收表单中所有的数据并存到模型中 b.使用I函数过滤数据 c.根据模型中定义的规则验证表单
-            $goods = D('Goods');
-            //<=>$goods = new \Admin\Model\GoodsModel();
+             //D和M的区别：D生成我们自己创建的模型对象，M生成TP自带的模型对象
+             //a.接收表单中所有的数据并存到模型中 b.使用I函数过滤数据 c.根据模型中定义的规则验证表单
+             $goods = D('Goods');//<=>$goods = new \Admin\Model\GoodsModel();
             if($goods->create(I('post.'),1)){//收集表单数据并自动验证(I('post.'):create方法要接收的数据过滤之后的$_POST;1指定当前是添加的表单.)
                 if($goods->add()){
                     $this->success('添加成功！',U('listGoods'),true);
@@ -22,6 +20,7 @@ class GoodsController extends Controller{
             }
         }
         else{
+            $this->setPageInfo('添加商品','商品列表',U('Goods/listGoods'));
             $this->display();            
         }
     }
@@ -45,6 +44,7 @@ class GoodsController extends Controller{
             $this->assign('pageIndex',I('get.p'));
             $this->assign('goods',$res);
             $this->assign('rootpath',__ROOT__.ltrim(C('uploadConfig.rootPath'),'.'));
+            $this->setPageInfo('编辑商品','商品列表',U('Goods/listGoods?p='.I('get.p')));
             $this->display();            
         }
     }
@@ -65,6 +65,7 @@ class GoodsController extends Controller{
         $this->assign('page',$data['page']);
         //echo __ROOT__.ltrim(C('uploadConfig.rootPath'),'.');die;
         $this->assign('rootpath',__ROOT__.ltrim(C('uploadConfig.rootPath'),'.'));
+        $this->setPageInfo('商品列表','添加商品',U('Goods/add'));
         $this->display();
     }
 }

@@ -26,7 +26,21 @@ class GoodsModel extends Model{
         $data['addtime'] = time();
         //show_bug($_FILES);die;
         if(!$_FILES['goods_logo']['error']){//有选择图片
-             $this->upload($data,$_FILES['goods_logo']);
+             //$this->upload($data,$_FILES['goods_logo']);
+             $res = uploadFile($_FILES['goods_logo'],array(//假设最多上传10张缩略图
+                        array(150,200),//缩略图宽高
+                        array(200,250)
+                     ));
+             if($res['success']==1){
+                 $data['logo'] = $res['images'][0];
+                 if($res['images'][1]){
+                    $data['sm_logo'] = $res['images'][1];
+                 }
+                 return true;
+             }else{
+                 $this->error = $res['error'];
+                 return false;
+             }
         }
     }
     public function upload(&$data,$file){//记得传递引用数据（才能修改源数据）
@@ -120,8 +134,8 @@ class GoodsModel extends Model{
         $res = $this->field('logo,sm_logo')->find($id);
         //show_bug($res);
         //删除项目上存放的图片
-        unlink(C('uploadConfig.rootPath').$res['logo']);
-        unlink(C('uploadConfig.rootPath').$res['sm_logo']);
+        deleteImg($res['logo']);
+        deleteImg($res['sm_logo']);
     }   
 
     //更新数据之前的回调方法
@@ -131,11 +145,27 @@ class GoodsModel extends Model{
         if(!$_FILES['goods_logo']['error']){
             $picsToDelete = $this->field('logo,sm_logo')->find($options['where']['id']);
             //删除项目中的旧图片
-            unlink(C('uploadConfig.rootPath').$picsToDelete['logo']);
-            unlink(C('uploadConfig.rootPath').$picsToDelete['sm_logo']);
+            deleteImg($picsToDelete['logo']);
+            $path = explode('_', $picsToDelete['sm_logo']);
+            for($i=1;$i<=10;$i++){//假设最多上传10张缩略图,所以删除10张.
+                deleteImg($path[0].'_'.$i.'_'.$path[2]);
+            }
             //增加新上传的图片到项目中再设置图片存储路径到表单数据中（数据库）
-            $this->upload($data,$_FILES['goods_logo']);
+            //$this->upload($data,$_FILES['goods_logo']);
+             $res = uploadFile($_FILES['goods_logo'],array(
+                        array(150,200),//缩略图宽高
+             ));
+             if($res['success']==1){
+                 $data['logo'] = $res['images'][0];
+                 if($res['images'][1]){
+                    $data['sm_logo'] = $res['images'][1];
+                 }
+                 return true;
+             }else{
+                 $this->error = $res['error'];
+                 return false;
+             }
         }
     }
-    
+
  }

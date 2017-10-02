@@ -1,0 +1,33 @@
+[ 2017-09-17T20:24:13+08:00 ] 127.0.0.1 //shop/index.php/Admin/Login
+ERR: 无法加载控制器:Login
+
+[ 2017-09-17T20:26:29+08:00 ] 127.0.0.1 //shop/index.php/Admin/Login/Index
+ERR: 无法加载控制器:Login
+
+[ 2017-09-17T20:26:41+08:00 ] 127.0.0.1 //shop/index.php/Admin/Goods
+ERR: 非法操作:index
+
+[ 2017-09-17T20:26:45+08:00 ] 127.0.0.1 //shop/index.php/Admin/Goods
+ERR: 非法操作:index
+
+[ 2017-09-17T20:27:01+08:00 ] 127.0.0.1 //shop/index.php/Admin/Goods
+ERR: 非法操作:index
+
+[ 2017-09-17T20:27:28+08:00 ] 127.0.0.1 //shop/index.php/Admin/Login
+ERR: 无法加载控制器:Login
+
+[ 2017-09-17T20:29:45+08:00 ] 127.0.0.1 //shop/index.php/Admin/Login
+ERR: 非法操作:index
+
+[ 2017-09-17T21:04:35+08:00 ] 127.0.0.1 //shop/index.php/Admin/Login/%EF%BF%BDPNG%1A%EF%BF%BD%EF%BF%BD%EF%BF%BDIHDR%EF%BF%BD%EF%BF%BD%EF%BF%BDx%EF%BF%BD%EF%BF%BD%EF%BF%BD
+ERR: 非法操作:�PNG���IHDR���x���
+
+[ 2017-09-17T21:28:59+08:00 ] 127.0.0.1 /shop/index.php/Admin/Login/login
+ERR: 无法加载控制器:Login
+
+[ 2017-09-17T21:30:05+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/login
+ERR: 模板不存在:./APP/Admin/View/Admin/login.html
+
+[ 2017-09-17T21:39:57+08:00 ] 127.0.0.1 /shop/index.php/Admin/Login/login
+ERR: 无法加载控制器:Login
+

@@ -1,0 +1,26 @@
+<layout name="Index/header_footer" /><!--以当前模板所在目录View开始找-->
+<!-- 列表 -->
+<div class="list-div" id="listDiv">
+	<table cellpadding="3" cellspacing="1">
+    	<tr>
+            <th >分类名称</th>
+            <th >上级分类的 id, 0 代表顶级分类</th>
+			<th width="60">操作</th>
+        </tr>
+        <foreach name="cates" item="v">
+           <tr class="tron">
+               <td>{$v.cat_name}</td>
+               <td>{$v.parent_id}</td>
+               <td>
+                   <a href="{:U('Category/modify',array('id'=>$v['id'],'p'=>$pageIndex))}" style="text-decoration: none;">修改</a>&nbsp;
+                   <a href="{:U('Category/delete',array('id'=>$v['id'],'p'=>$pageIndex))}" style="text-decoration: none;" onclick="return confirm('你确定删除吗？');">删除</a>
+               </td>
+           </tr>
+        </foreach>
+        <tr>
+            <td colspan="3" align="center">{$page}</td>
+        </tr>
+	</table>
+</div>
+<script>
+</script>

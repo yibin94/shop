@@ -1,0 +1,27 @@
+[ 2017-09-24T00:56:57+08:00 ] 127.0.0.1 /shop/index.php/Admin/Privilege/modify/id/3/p/2.html
+ERR: 1054:Unknown column 'cat_name' in 'field list'
+ [ SQL语句 ] : SELECT `cat_name` FROM `shop_privilege` WHERE `id` = 1 LIMIT 1  
+
+[ 2017-09-24T10:29:28+08:00 ] 127.0.0.1 /shop/index.php/Admin/Privilege/modify/id/1/p/1.html?p=1
+ERR: Think\Controller:getError方法不存在！
+
+[ 2017-09-24T16:00:25+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html?p=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0140s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `shop_goods` WHERE `goods_name` = '裤子' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: auto D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp64\www\shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `shop_goods` (`goods_name`,`price`,`goods_desc`,`is_on_sale`,`addtime`,`logo`,`sm_logo`) VALUES ('裤子','26','好穿','1','1506240024','images/2017-09-24/59c76618cb8c5.jpg','images/2017-09-24/sm_1_59c76618cb8c5.jpg') [ RunTime:0.0200s ]
+
+[ 2017-09-24T17:24:33+08:00 ] 127.0.0.1 /shop/index.php/Admin/Role/lst.html
+ERR: Think\Controller:setPageBtn方法不存在！
+
+[ 2017-09-24T19:15:07+08:00 ] 127.0.0.1 /shop/index.php/Admin/Role/listRole.html
+ERR: Think\Model:search方法不存在！
+
+[ 2017-09-24T19:16:41+08:00 ] 127.0.0.1 /shop/index.php/Admin/Role/listRole/p/1.html?p=
+ERR: 模板不存在:./APP/Admin/View/Role/listRole.html
+

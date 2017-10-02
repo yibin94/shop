@@ -29,4 +29,16 @@ return array(
       'savePath' => 'images/',// 设置附件上传（子）目录
     ),
     'DEFAULT_FILTER'=> 'trim,avoidXSS',//过滤 空格 和 xss 的配置项
+    //超级管理员密码的md5加密前的后缀
+    'pwd_suffix' => 'yibin94',
+    //验证码配置参数
+    'verifyConfig' => array(
+      'fontSize'  =>  15,              // 验证码字体大小(px)
+      'useNoise'  =>  true,            // 是否添加杂点  
+      'imageH'    =>  32,               // 验证码图片高度
+      'imageW'    =>  120,               // 验证码图片宽度
+      'length'    =>  4,               // 验证码位数
+      'fontttf'   =>  '5.ttf',              // 验证码字体，不设置随机获取
+    ),
+    'pageNum' => 3,
 );

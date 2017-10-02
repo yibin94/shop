@@ -1,0 +1,39 @@
+<layout name="Index/header_footer" />
+<div class="main-div">
+    <form name="main_form" method="POST" action="__SELF__">
+        <table cellspacing="1" cellpadding="3" width="100%">
+			<tr>
+				<td class="label">用户名</td>
+                <td><input type="text" name="username" value=""/></td>
+			</tr>
+            <tr>
+                <td class="label">密  码</td>
+                <td><input type="password" name="password" value="" /></td>
+            </tr>
+            <tr>
+                <td class="label">确认密码</td>
+                <td><input type="password" name="repassword" value="" /></td>
+            </tr>
+            <tr>
+                <td class="label">是否启用</td>
+                <td>
+                   <input type="radio" name="is_use" value="1" checked/>是
+                   <input type="radio" name="is_use" value="0" />否
+                </td>
+            </tr>
+            <tr>
+                <td class="label">所在的角色</td>
+                <td>
+                    <foreach name="roles" item="v">
+                       <input type="checkbox" name="roles[]" value="{$v.id}"/>{$v.role_name}&nbsp;&nbsp;&nbsp;&nbsp;
+                    </foreach>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="100" align="center">
+                    <input type="submit" class="button" value=" 确定 " style="cursor:pointer;"/>
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>

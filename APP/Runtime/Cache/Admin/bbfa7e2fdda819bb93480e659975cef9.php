@@ -1,19 +1,24 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>管理中心 - 添加新商品 </title>
+<title>管理中心 - 商品列表 </title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link href="/shop/Public/Admin/css/general.css" rel="stylesheet" type="text/css" />
 <link href="/shop/Public/Admin/css/main.css" rel="stylesheet" type="text/css" />
+<!-- 引入日期插件文件 -->
+<link href="/shop/Public/datepicker/jquery-ui-1.9.2.custom.min.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" charset="utf-8" src="/shop/Public/datepicker/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="/shop/Public/datepicker/jquery-ui-1.9.2.custom.min.js"></script>
 </head>
 <body>
 <h1>
-    <span class="action-span"><a href="<?php echo U('Goods/listGoods');?>">商品列表</a>
-    </span>
-    <span class="action-span1"><a href="<?php echo U('Index/index');?>">管理中心</a></span>
-    <span id="search_id" class="action-span1"> - 添加新商品 </span>
+    <span class="action-span"><a href="<?php echo ($link); ?>?p=<?php echo ($pageIndex); ?>"><?php echo ($btn); ?></a></span>
+    <span class="action-span1"><a href="<?php echo U('Index/index');?>">管理中心</a>&nbsp;</span>
+    <span id="search_id" class="action-span1"> - <?php echo ($title); ?> </span>
     <div style="clear:both"></div>
 </h1>
+<!--在当前模板所在view目录开始找-->
+
 
 <div class="tab-div">
     <div id="tabbar-div">
@@ -22,7 +27,7 @@
         </p>
     </div>
     <div id="tabbody-div">
-      <form id="addForm" name = "addForm" action="/shop/index.php/Admin/Goods/add.html" method="post" enctype="multipart/form-data">
+      <form id="addForm" name = "addForm" action="/shop/index.php/Admin/Goods/add.html?p=" method="post" enctype="multipart/form-data">
         商品名称：<input type="text" name="goods_name" /><br /><br />
         商品价格：<input type="text" name="price" /><br /><br />
         商品描述：<br /><br />
@@ -36,12 +41,6 @@
       </form>
     </div>
 </div>
-
-<div id="footer">
-共执行 9 个查询，用时 0.025161 秒，Gzip 已禁用，内存占用 3.258 MB<br />
-版权所有 &copy; 2005-2012 上海商派网络科技有限公司，并保留所有权利。</div>
-</body>
-</html>
 
 <script type="text/javascript" charset="utf-8" src="/shop/Public/datepicker/jquery-1.7.2.min.js"></script>
 <script charset="utf-8" src="/shop/Public/editor/kindeditor.js"></script>
@@ -59,7 +58,7 @@
         $("form[name=addForm]").submit(function(){
             var formData = new FormData(document.getElementById("addForm"));
             $.ajax({
-                url:"/shop/index.php/Admin/Goods/add.html",
+                url:"/shop/index.php/Admin/Goods/add.html?p=",
                 type:"post",
                 data:formData,
                 dataType: 'json', //返回的数据类型
@@ -80,3 +79,8 @@
             return false;//阻止表单提交
         });
 </script>
+<div id="footer">
+&copy; 2017-2017 by yibin</div>
+</body>
+</html>
+<script type="text/javascript" src="/shop/Public/Admin/js/tron.js"></script>

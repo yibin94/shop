@@ -1,0 +1,38 @@
+[ 2017-09-26T00:19:07+08:00 ] 127.0.0.1 /shop/index.php/Admin/Role/listAdmin.html
+ERR: 非法操作:listAdmin
+
+[ 2017-09-26T00:19:41+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/listAdmin.html
+ERR: Think\Controller:setPageInfo方法不存在！
+
+[ 2017-09-26T00:20:48+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/listAdmin.html
+ERR: 模板不存在:./APP/Admin/View/Admin/listAdmin.html
+
+[ 2017-09-26T10:54:34+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/listAdmin.html
+ERR: Think\Controller:setPageInfo方法不存在！
+
+[ 2017-09-26T10:56:47+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/listAdmin.html
+ERR: 1146:Table 'shop.shop_validate' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `shop_validate`
+
+[ 2017-09-26T11:00:23+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/listAdmin.html
+ERR: 1146:Table 'shop.shop_validate' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `shop_validate`
+
+[ 2017-09-26T11:06:03+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/listAdmin.html
+ERR: Think\Controller:assign方法不存在！
+
+[ 2017-09-26T11:06:38+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/listAdmin.html
+ERR: Think\Controller:assign方法不存在！
+
+[ 2017-09-26T11:06:54+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/listAdmin.html
+ERR: Think\Controller:assign方法不存在！
+
+[ 2017-09-26T14:43:04+08:00 ] 127.0.0.1 /shop/index.php/Admin/Login/login.html
+ERR: 模板不存在:./APP/Admin/View/Login/login.html
+
+[ 2017-09-26T15:07:15+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/logout.html
+ERR: 非法操作:logout
+
+[ 2017-09-26T15:08:39+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/logout.html
+ERR: 非法操作:logout
+

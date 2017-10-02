@@ -1,0 +1,61 @@
+<layout name="Index/header_footer" />
+<div class="main-div">
+    <form name="main_form" method="POST" action="__SELF__">
+        <table cellspacing="1" cellpadding="3" width="100%">
+            <tr>
+                <td class="label">权限名称：</td>
+                <td>
+                    <input  type="text" name="pri_name" value="" />
+                </td>
+            </tr>
+            <tr>
+                <td class="label">模块名称：</td>
+                <td>
+                    <input  type="text" name="module_name" value="" />
+                </td>
+            </tr>
+            <tr>
+                <td class="label">控制器名称：</td>
+                <td>
+                    <input  type="text" name="controller_name" value="" />
+                </td>
+            </tr>
+            <tr>
+                <td class="label">方法名称：</td>
+                <td>
+                    <input  type="text" name="action_name" value="" />
+                </td>
+            </tr>
+            <tr>
+                <td class="label">上级权限的 id，0 代表顶级权限：</td>
+                <td>
+                    <input  type="text" name="parent_id" value="0" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="99" align="center">
+                    <input type="submit" class="button" value=" 确定 " style="cursor:pointer;"/>
+                </td>
+            </tr>
+        </table>
+        <!--罗列有的权限及id值-->
+        <table cellpadding="3" cellspacing="0" border="1px" style="background:#BBDDE5;text-align:center;width:80%;margin:auto;">
+           <tr>
+               <th style="font-weight:bold;font-size:15px;">当前所有的权限</th>
+               <th style="font-weight:bold;font-size:15px;">权限的 id</th>
+           </tr>
+           <tr>
+               <td>顶级权限</td>
+               <td>0</td>
+           </tr>
+           <foreach name="priRes" item="pri">
+              <tr>
+                  <td>{$pri['pri_name']}</td>
+                  <td>{$pri['id']}</td>
+              </tr>
+           </foreach>
+        </table>
+    </form>
+</div>
+<script>
+</script>

@@ -12,11 +12,14 @@
 </head>
 <body>
 <h1>
-    <span class="action-span"><a href="<?php echo U('Goods/add');?>">添加新商品</a></span>
-    <span class="action-span1"><a href="<?php echo U('Index/index');?>">管理中心</a></span>
-    <span id="search_id" class="action-span1"> - 商品列表 </span>
+    <span class="action-span"><a href="<?php echo ($link); ?>?p=<?php echo ($pageIndex); ?>"><?php echo ($btn); ?></a></span>
+    <span class="action-span1"><a href="<?php echo U('Index/index');?>">管理中心</a>&nbsp;</span>
+    <span id="search_id" class="action-span1"> - <?php echo ($title); ?> </span>
     <div style="clear:both"></div>
 </h1>
+<!--在当前模板所在view目录开始找-->
+
+
 <div class="form-div">
     <form method='get'>
          <input type="hidden" name="p" value='1'><!--隐藏域为了每次搜索，从翻页的页面第一页开始搜-->
@@ -63,13 +66,13 @@
            <th>添加时间</th>
            <th>操  作</th>
          </tr>
-         <?php if(is_array($list)): foreach($list as $key=>$v): ?><tr>
+         <?php if(is_array($list)): foreach($list as $key=>$v): ?><tr class="tron">
              <td><?php echo ($v["id"]); ?></td>
              <td><?php echo ($v["goods_name"]); ?></td>
              <td><?php echo ($v["price"]); ?></td>
              <td><?php echo ($v["goods_desc"]); ?></td>
-             <td><img src="<?php echo ($rootpath); echo ($v["logo"]); ?>"/></td>
-             <td><img src="<?php echo ($rootpath); echo ($v["sm_logo"]); ?>"/></td>
+             <td><?php showImg($v['logo'],200,200);?></td>
+             <td><?php showImg($v['sm_logo']);?></td>
              <td><?php echo ($v['is_on_sale']?'上架':'下架'); ?></td>
              <td><?php echo ($v['is_delete']?'已删除':'未删除'); ?></td>
              <td><?php echo (date('Y-m-d H:i:s',$v["addtime"])); ?></td>
@@ -83,11 +86,8 @@
     </div>
 </form>
 
-<div id="footer">
-共执行 7 个查询，用时 0.028849 秒，Gzip 已禁用，内存占用 3.219 MB<br />
-版权所有 &copy; 2005-2012 上海商派网络科技有限公司，并保留所有权利。</div>
-</body>
-</html>
+<!---->
+
 
 <script type="text/javascript">
      <!-- 引入日期中文包代码 -->
@@ -127,3 +127,8 @@
       $("#start_addtime").datepicker({ dateFormat: "yy-mm-dd" });
       $("#end_addtime").datepicker({ dateFormat: "yy-mm-dd" });
 </script>
+<div id="footer">
+&copy; 2017-2017 by yibin</div>
+</body>
+</html>
+<script type="text/javascript" src="/shop/Public/Admin/js/tron.js"></script>

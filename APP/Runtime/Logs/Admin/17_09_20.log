@@ -1,0 +1,28 @@
+[ 2017-09-20T00:25:35+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0340s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `shop_goods` WHERE `goods_name` = '午夜凶铃' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: auto D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp64\www\shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `shop_goods` (`goods_name`,`price`,`goods_desc`,`is_on_sale`,`addtime`,`logo`,`sm_logo`) VALUES ('午夜凶铃','1','11','1','1505838334','images/2017-09-20/59c144feef01d.gif','images/2017-09-20/59c144feef01d.gif') [ RunTime:0.0010s ]
+
+[ 2017-09-20T00:34:47+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0860s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `shop_goods` WHERE `goods_name` = '午夜测试' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: auto D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp64\www\shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `shop_goods` (`goods_name`,`price`,`goods_desc`,`is_on_sale`,`addtime`,`logo`,`sm_logo`) VALUES ('午夜测试','233','2336','1','1505838886','images/2017-09-20/59c14726e040e.gif','images/2017-09-20/sm_1_59c14726e040e.gif') [ RunTime:0.0000s ]
+
+[ 2017-09-20T22:06:47+08:00 ] 127.0.0.1 /shop/index.php/Admin/Category/lst.html
+ERR: Think\Controller:setPageBtn方法不存在！
+
+[ 2017-09-20T22:07:53+08:00 ] 127.0.0.1 /shop/index.php/Admin/Category/lst.html
+ERR: Think\Controller:setPageBtn方法不存在！
+

@@ -1,0 +1,153 @@
+[ 2017-09-18T10:25:51+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/login
+ERR: Think\Model:veifyCheck方法不存在！
+
+[ 2017-09-18T15:34:07+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/Goods/listGoods
+ERR: 非法操作:Goods
+
+[ 2017-09-18T15:34:29+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/Goods/listGoods
+ERR: 非法操作:Goods
+
+[ 2017-09-18T16:28:11+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/U(
+ERR: 非法操作:U(
+
+[ 2017-09-18T16:29:27+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/U(
+ERR: 非法操作:U(
+
+[ 2017-09-18T17:04:59+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/listGoods/p/1.html
+ERR: 非法操作:listGoods
+
+[ 2017-09-18T20:10:01+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `shop_goods` WHERE `goods_name` = '测试封装上传函数' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: auto D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp64\www\shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: savePath D:\wamp64\www\shop\APP\Common\Common\function.php 第 35 行.
+NOTIC: [8] Undefined variable: saveName D:\wamp64\www\shop\APP\Common\Common\function.php 第 35 行.
+NOTIC: [8] Undefined variable: savePath D:\wamp64\www\shop\APP\Common\Common\function.php 第 35 行.
+NOTIC: [8] Undefined variable: saveName D:\wamp64\www\shop\APP\Common\Common\function.php 第 35 行.
+
+[ 2017-09-18T20:13:35+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `shop_goods` WHERE `goods_name` = '测试封装上传函数' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: auto D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp64\www\shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: savePath D:\wamp64\www\shop\APP\Common\Common\function.php 第 35 行.
+NOTIC: [8] Undefined variable: saveName D:\wamp64\www\shop\APP\Common\Common\function.php 第 35 行.
+NOTIC: [8] Undefined variable: savePath D:\wamp64\www\shop\APP\Common\Common\function.php 第 35 行.
+NOTIC: [8] Undefined variable: saveName D:\wamp64\www\shop\APP\Common\Common\function.php 第 35 行.
+
+[ 2017-09-18T20:15:23+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `shop_goods` WHERE `goods_name` = '测试封装上传函数' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-09-18T20:15:49+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `shop_goods` WHERE `goods_name` = '测试封装上传函数' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: auto D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp64\www\shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-09-18T20:18:50+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `shop_goods` WHERE `goods_name` = '测试封装上传函数' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: auto D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp64\www\shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant console - assumed 'console' D:\wamp64\www\shop\APP\Common\Common\function.php 第 25 行.
+NOTIC: [2] log() expects parameter 1 to be double, array given D:\wamp64\www\shop\APP\Common\Common\function.php 第 25 行.
+
+[ 2017-09-18T20:28:19+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `shop_goods` WHERE `goods_name` = '三生三世' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: auto D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp64\www\shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant console - assumed 'console' D:\wamp64\www\shop\APP\Common\Common\function.php 第 24 行.
+NOTIC: [2] log() expects parameter 1 to be double, string given D:\wamp64\www\shop\APP\Common\Common\function.php 第 24 行.
+NOTIC: [8] Use of undefined constant console - assumed 'console' D:\wamp64\www\shop\APP\Common\Common\function.php 第 25 行.
+NOTIC: [2] log() expects parameter 1 to be double, array given D:\wamp64\www\shop\APP\Common\Common\function.php 第 25 行.
+
+[ 2017-09-18T20:35:41+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `shop_goods` WHERE `goods_name` = '测试封装上传函数' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: auto D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp64\www\shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant console - assumed 'console' D:\wamp64\www\shop\APP\Common\Common\function.php 第 24 行.
+NOTIC: [2] log() expects parameter 1 to be double, string given D:\wamp64\www\shop\APP\Common\Common\function.php 第 24 行.
+NOTIC: [8] Use of undefined constant console - assumed 'console' D:\wamp64\www\shop\APP\Common\Common\function.php 第 25 行.
+NOTIC: [2] log() expects parameter 1 to be double, array given D:\wamp64\www\shop\APP\Common\Common\function.php 第 25 行.
+
+[ 2017-09-18T20:37:06+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `shop_goods` WHERE `goods_name` = '测试封装上传函数' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: auto D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp64\www\shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant console - assumed 'console' D:\wamp64\www\shop\APP\Common\Common\function.php 第 24 行.
+NOTIC: [2] log() expects parameter 1 to be double, string given D:\wamp64\www\shop\APP\Common\Common\function.php 第 24 行.
+NOTIC: [8] Use of undefined constant console - assumed 'console' D:\wamp64\www\shop\APP\Common\Common\function.php 第 25 行.
+NOTIC: [2] log() expects parameter 1 to be double, array given D:\wamp64\www\shop\APP\Common\Common\function.php 第 25 行.
+SQL: INSERT INTO `shop_goods` (`goods_name`,`price`,`goods_desc`,`is_on_sale`,`addtime`,`logo`,`sm_logo`) VALUES ('测试封装上传函数','898','998','1','1505738225','images/2017-09-18/59bfbdf1f1815.png','images/2017-09-18/sm_1_59bfbdf1f1815.png') [ RunTime:0.0210s ]
+
+[ 2017-09-18T20:51:48+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0910s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `shop_goods` WHERE `goods_name` = '测试封装上传函数' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-09-18T20:52:28+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `shop_goods` WHERE `goods_name` = '测试封装上传函数2' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: auto D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp64\www\shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant console - assumed 'console' D:\wamp64\www\shop\APP\Common\Common\function.php 第 24 行.
+NOTIC: [2] log() expects parameter 1 to be double, string given D:\wamp64\www\shop\APP\Common\Common\function.php 第 24 行.
+NOTIC: [8] Use of undefined constant console - assumed 'console' D:\wamp64\www\shop\APP\Common\Common\function.php 第 25 行.
+NOTIC: [2] log() expects parameter 1 to be double, array given D:\wamp64\www\shop\APP\Common\Common\function.php 第 25 行.
+SQL: INSERT INTO `shop_goods` (`goods_name`,`price`,`goods_desc`,`is_on_sale`,`addtime`,`logo`,`sm_logo`) VALUES ('测试封装上传函数2','233','345','1','1505739148','images/2017-09-18/59bfc18c30928.png','images/2017-09-18/sm_1_59bfc18c30928.png') [ RunTime:0.0010s ]
+
+[ 2017-09-18T21:09:32+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0410s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `shop_goods` WHERE `goods_name` = '测试封装上传函数3' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: auto D:\wamp64\www\shop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp64\www\shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `shop_goods` (`goods_name`,`price`,`goods_desc`,`is_on_sale`,`addtime`,`logo`,`sm_logo`) VALUES ('测试封装上传函数3','233','2333','1','1505740172','images/2017-09-18/59bfc58c545ba.png','images/2017-09-18/sm_1_59bfc58c545ba.png') [ RunTime:0.0010s ]
+

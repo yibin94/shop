@@ -1,0 +1,293 @@
+[ 2017-09-28T13:13:58+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/U('Admin/switchState')?id/7&state/%E5%90%AF%E7%94%A8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:U('Admin
+
+[ 2017-09-28T13:13:59+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/U('Admin/switchState')?id/6&state/%E7%A6%81%E7%94%A8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:U('Admin
+
+[ 2017-09-28T13:15:02+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/:U('Admin/switchState')?id/7&state/%E5%90%AF%E7%94%A8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作::U('Admin
+
+[ 2017-09-28T13:16:33+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/:U('Admin/switchState')?id/7&state/%E5%90%AF%E7%94%A8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作::U('Admin
+
+[ 2017-09-28T13:19:23+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState.html?id/7&state/%E5%90%AF%E7%94%A8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 参数错误或者未定义:data
+
+[ 2017-09-28T13:19:53+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState?id/7&state/%E5%90%AF%E7%94%A8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 参数错误或者未定义:data
+
+[ 2017-09-28T13:21:03+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState?id/7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 参数错误或者未定义:data
+
+[ 2017-09-28T13:21:20+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState?id/7
+ERR: 参数错误或者未定义:data
+
+[ 2017-09-28T13:23:13+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState?id/7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id D:\wamp64\www\shop\APP\Admin\Controller\AdminController.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-28T13:26:28+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState?id/7&state/%E5%90%AF%E7%94%A8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-28T13:27:32+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState?id/6&state/%E7%A6%81%E7%94%A8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-28T13:35:24+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/%E5%90%AF%E7%94%A8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0000s ]
+SQL: UPDATE `shop_admin` SET `is_use`='0' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-28T13:35:56+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/%E7%A6%81%E7%94%A8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0000s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-28T13:36:00+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/%E7%A6%81%E7%94%A8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0000s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 6 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-28T13:38:54+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/8/state/%E5%90%AF%E7%94%A8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='0' WHERE `id` = 8 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T13:39:02+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/8/state/%E7%A6%81%E7%94%A8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 8 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T13:39:18+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/%E5%90%AF%E7%94%A8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='0' WHERE `id` = 6 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-28T13:39:19+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/%E5%90%AF%E7%94%A8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='0' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T13:39:27+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/%E7%A6%81%E7%94%A8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 6 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T16:51:54+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='0' WHERE `id` = 6 [ RunTime:0.0210s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-28T16:52:21+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 6 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-28T16:52:46+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-09-28T16:52:47+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='0' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-28T16:53:15+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/8/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 8 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T16:53:31+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='0' WHERE `id` = 6 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-09-28T16:53:32+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 6 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-09-28T16:53:34+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='0' WHERE `id` = 6 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T16:53:35+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 6 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T16:57:45+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T19:22:56+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0000s ]
+SQL: UPDATE `shop_admin` SET `is_use`='0' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T19:22:58+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T19:23:00+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='0' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-28T19:23:01+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+

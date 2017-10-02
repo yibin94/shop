@@ -1,0 +1,26 @@
+[ 2017-09-20T20:43:47+08:00 ] 127.0.0.1 /shop/index/Gii/View/Index/
+ERR: 无法加载控制器:View
+
+[ 2017-09-20T20:43:49+08:00 ] 127.0.0.1 /shop/index/Gii/View/Index/
+ERR: 无法加载控制器:View
+
+[ 2017-09-20T21:43:10+08:00 ] 127.0.0.1 /shop/index.php/Gii
+ERR: 1048:Column 'parent_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `shop_privilege` (`pri_name`,`parent_id`,`module_name`,`controller_name`,`action_name`) VALUES ('商品分类列表',NULL,'Admin','Category','lst')
+
+[ 2017-09-20T21:44:44+08:00 ] 127.0.0.1 /shop/index.php/Gii
+ERR: 1048:Column 'parent_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `shop_privilege` (`pri_name`,`parent_id`,`module_name`,`controller_name`,`action_name`) VALUES ('商品分类列表',NULL,'Admin','Category','lst')
+
+[ 2017-09-20T21:47:23+08:00 ] 127.0.0.1 /shop/index.php/Gii
+ERR: 1048:Column 'parent_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `shop_privilege` (`pri_name`,`parent_id`,`module_name`,`controller_name`,`action_name`) VALUES ('商品分类列表',NULL,'Admin','Category','lst')
+
+[ 2017-09-20T21:48:35+08:00 ] 127.0.0.1 /shop/index.php/Gii
+ERR: 1048:Column 'parent_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `shop_privilege` (`pri_name`,`parent_id`,`module_name`,`controller_name`,`action_name`) VALUES ('商品分类列表',NULL,'Admin','Category','lst')
+
+[ 2017-09-20T21:49:10+08:00 ] 127.0.0.1 /shop/index.php/Gii
+ERR: 1048:Column 'parent_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `shop_privilege` (`pri_name`,`parent_id`,`module_name`,`controller_name`,`action_name`) VALUES ('权限表列表',NULL,'Admin','Privilege','lst')
+

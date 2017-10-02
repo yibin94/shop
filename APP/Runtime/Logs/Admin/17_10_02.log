@@ -1,0 +1,2476 @@
+[ 2017-10-02T01:40:43+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='0' WHERE `id` = 6 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T01:40:45+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0000s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 6 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T01:40:47+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 6 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T01:40:48+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 6 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T01:40:49+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 6 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T01:40:49+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 6 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T01:40:51+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 6 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T01:40:56+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 6 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T01:41:46+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='0' WHERE `id` = 6 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T01:41:54+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 6 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T01:41:54+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 6 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-02T01:43:25+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='0' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T01:43:30+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T01:43:31+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T01:43:31+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T01:43:31+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T01:43:31+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T01:43:32+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T01:43:32+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T01:43:32+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-10-02T01:43:33+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T11:20:02+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+
+[ 2017-10-02T11:20:05+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+
+[ 2017-10-02T11:20:07+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+
+[ 2017-10-02T11:20:08+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+
+[ 2017-10-02T11:20:08+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+
+[ 2017-10-02T11:20:08+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+
+[ 2017-10-02T11:20:08+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+
+[ 2017-10-02T11:20:09+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+
+[ 2017-10-02T11:20:16+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+
+[ 2017-10-02T11:20:20+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+
+[ 2017-10-02T11:20:21+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+
+[ 2017-10-02T11:20:21+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+
+[ 2017-10-02T11:20:21+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+
+[ 2017-10-02T11:20:22+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+
+[ 2017-10-02T11:20:40+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+
+[ 2017-10-02T11:34:16+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T11:34:18+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-02T11:34:18+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T11:34:19+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T11:34:19+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-02T11:34:19+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-02T11:34:19+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T11:34:19+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T11:34:20+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T11:34:20+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T11:34:20+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T11:34:25+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T11:34:26+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T11:34:26+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T11:34:26+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-02T11:34:26+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T11:34:27+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T11:34:27+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-02T11:34:27+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-02T11:34:27+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0000s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T11:34:28+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-02T11:34:28+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-02T11:34:28+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-02T11:35:22+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='0' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T11:35:25+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-02T11:35:28+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T11:35:30+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-10-02T11:35:31+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T11:35:31+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0000s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T11:35:31+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0000s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T11:35:31+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T11:35:31+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T11:35:32+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T11:35:34+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T11:35:35+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0000s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T11:35:36+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T11:35:36+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-02T11:35:36+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T11:35:36+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T11:35:36+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T11:35:36+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T11:37:37+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T11:37:39+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T11:37:39+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T11:37:39+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T11:37:39+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0000s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T11:37:39+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-02T11:37:40+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-02T11:37:40+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T11:37:40+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0000s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T11:37:40+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0000s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T11:37:40+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T11:37:40+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0000s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T11:37:41+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-02T11:37:41+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-02T11:37:41+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T11:37:41+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0000s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T11:37:41+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T11:37:42+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T11:37:42+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0000s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T11:37:42+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T11:37:42+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-02T11:37:43+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-02T11:37:43+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T11:37:43+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T11:37:43+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T11:38:30+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='0' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T11:38:43+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T11:39:01+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='0' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T11:39:03+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T12:32:31+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='0' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-02T12:32:39+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T12:32:46+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T12:32:57+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T12:33:04+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T12:33:52+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='0' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T12:33:53+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T12:34:01+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T13:20:53+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='0' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T13:20:54+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T13:20:56+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-10-02T13:20:57+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T13:20:57+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T13:21:32+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='0' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-02T13:21:33+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T13:21:34+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='0' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-10-02T13:21:34+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T13:23:28+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0000s ]
+SQL: UPDATE `shop_admin` SET `is_use`='0' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T13:23:34+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T13:23:40+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='0' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T13:31:19+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T13:31:21+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='0' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T13:31:21+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0000s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T13:31:37+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='0' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T13:35:30+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-02T13:35:33+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T13:36:07+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='0' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T13:36:09+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-02T13:36:10+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='0' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T13:36:10+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-02T13:36:10+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='0' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T13:36:10+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0000s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T13:36:11+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='0' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-02T13:36:11+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T13:36:11+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='0' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T13:36:11+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-02T13:36:12+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='0' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T13:36:12+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0000s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T13:38:15+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='0' WHERE `id` = 6 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-02T13:38:22+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 6 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-02T13:49:50+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='0' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-02T13:49:52+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T13:49:53+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0000s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T13:51:28+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='0' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T13:51:30+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T13:52:53+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0000s ]
+SQL: UPDATE `shop_admin` SET `is_use`='0' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T13:52:55+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T13:52:56+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0000s ]
+SQL: UPDATE `shop_admin` SET `is_use`='0' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T14:03:04+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016600s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+
+[ 2017-10-02T14:03:06+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+
+[ 2017-10-02T14:03:09+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+
+[ 2017-10-02T14:04:05+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+
+[ 2017-10-02T14:04:07+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+
+[ 2017-10-02T14:04:07+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+
+[ 2017-10-02T14:04:07+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+
+[ 2017-10-02T14:04:07+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+
+[ 2017-10-02T14:04:07+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+
+[ 2017-10-02T14:04:07+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+
+[ 2017-10-02T14:04:08+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+
+[ 2017-10-02T14:04:09+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+
+[ 2017-10-02T14:04:09+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+
+[ 2017-10-02T14:04:13+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+
+[ 2017-10-02T14:04:16+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0156s ]
+
+[ 2017-10-02T14:04:18+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+
+[ 2017-10-02T14:04:18+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+
+[ 2017-10-02T14:04:18+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0156s ]
+
+[ 2017-10-02T14:04:18+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+
+[ 2017-10-02T14:04:18+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+
+[ 2017-10-02T14:04:19+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+
+[ 2017-10-02T14:04:19+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+
+[ 2017-10-02T14:04:20+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+
+[ 2017-10-02T14:04:20+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0156s ]
+
+[ 2017-10-02T14:04:21+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+
+[ 2017-10-02T14:04:21+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0156s ]
+
+[ 2017-10-02T14:04:22+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+
+[ 2017-10-02T14:04:22+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+
+[ 2017-10-02T14:04:22+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+
+[ 2017-10-02T14:04:22+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+
+[ 2017-10-02T14:04:23+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+
+[ 2017-10-02T14:04:23+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+
+[ 2017-10-02T14:04:23+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0156s ]
+
+[ 2017-10-02T14:04:24+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+
+[ 2017-10-02T14:04:24+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+
+[ 2017-10-02T14:05:46+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+
+[ 2017-10-02T14:05:48+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+
+[ 2017-10-02T14:05:50+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+
+[ 2017-10-02T14:05:52+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+
+[ 2017-10-02T14:05:58+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+
+[ 2017-10-02T14:07:53+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T14:07:53+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='0' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T14:07:54+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T14:07:58+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='0' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T14:08:02+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0000s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T14:10:58+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+
+[ 2017-10-02T14:11:00+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+
+[ 2017-10-02T14:11:09+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+
+[ 2017-10-02T14:13:13+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='0' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T14:13:14+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T14:13:14+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='0' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T14:13:15+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T14:14:53+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+
+[ 2017-10-02T14:14:56+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+
+[ 2017-10-02T14:14:57+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+
+[ 2017-10-02T14:16:29+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+
+[ 2017-10-02T14:16:31+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+
+[ 2017-10-02T14:16:32+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+
+[ 2017-10-02T14:16:33+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+
+[ 2017-10-02T14:16:33+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+
+[ 2017-10-02T14:16:35+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+
+[ 2017-10-02T14:16:35+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+
+[ 2017-10-02T14:16:36+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+
+[ 2017-10-02T14:16:36+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+
+[ 2017-10-02T14:16:36+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+
+[ 2017-10-02T14:16:36+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+
+[ 2017-10-02T14:16:36+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+
+[ 2017-10-02T14:16:36+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+
+[ 2017-10-02T14:16:36+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+
+[ 2017-10-02T14:16:37+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+
+[ 2017-10-02T14:16:43+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+
+[ 2017-10-02T14:17:04+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+
+[ 2017-10-02T14:17:29+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+
+[ 2017-10-02T14:17:34+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+
+[ 2017-10-02T14:18:29+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+
+[ 2017-10-02T14:18:56+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0000s ]
+SQL: UPDATE `shop_admin` SET `is_use`='0' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-02T14:18:57+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0000s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2017-10-02T14:18:58+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0000s ]
+SQL: UPDATE `shop_admin` SET `is_use`='0' WHERE `id` = 7 [ RunTime:0.0156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-02T14:19:51+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0000s ]
+SQL: UPDATE `shop_admin` SET `is_use`='0' WHERE `id` = 6 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T14:20:53+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: select * from shop_privilege where  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 6 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T14:21:08+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+
+[ 2017-10-02T14:21:09+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+
+[ 2017-10-02T14:21:12+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+
+[ 2017-10-02T14:21:13+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+
+[ 2017-10-02T14:22:54+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='0' WHERE `id` = 6 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T14:23:01+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 6 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T14:23:02+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0000s ]
+SQL: UPDATE `shop_admin` SET `is_use`='0' WHERE `id` = 6 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T14:23:03+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 6 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T14:23:05+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-02T14:23:06+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='0' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T14:26:53+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/listAdmin.html
+ERR: 1065:Query was empty
+
+[ 2017-10-02T14:29:27+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T14:29:27+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='0' WHERE `id` = 7 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T14:29:28+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0000s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T14:30:50+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: sql D:\wamp64\www\shop\APP\Admin\Controller\ValidateController.class.php 第 27 行.
+ERR: 1065:Query was empty
+ERR: 1065:Query was empty
+
+[ 2017-10-02T14:30:54+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: sql D:\wamp64\www\shop\APP\Admin\Controller\ValidateController.class.php 第 27 行.
+ERR: 1065:Query was empty
+ERR: 1065:Query was empty
+
+[ 2017-10-02T14:30:55+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: sql D:\wamp64\www\shop\APP\Admin\Controller\ValidateController.class.php 第 27 行.
+ERR: 1065:Query was empty
+ERR: 1065:Query was empty
+
+[ 2017-10-02T14:30:57+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0000s ]
+SQL: UPDATE `shop_admin` SET `is_use`='0' WHERE `id` = 6 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T14:30:58+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 6 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T14:31:05+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/modify/id/7/p/1.html
+ERR: 1065:Query was empty
+
+[ 2017-10-02T14:31:55+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/modify/id/7/p/1.html
+ERR: 1065:Query was empty
+
+[ 2017-10-02T14:33:07+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T14:33:09+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-10-02T14:33:09+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-02T14:33:10+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T14:34:09+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T14:34:10+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/7/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-10-02T14:34:23+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='0' WHERE `id` = 6 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T14:34:33+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='0' WHERE `id` = 6 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T14:34:33+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 6 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T14:34:34+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0000s ]
+SQL: UPDATE `shop_admin` SET `is_use`='0' WHERE `id` = 6 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T14:34:35+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0000s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 6 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T14:37:59+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0000s ]
+SQL: UPDATE `shop_admin` SET `is_use`='0' WHERE `id` = 6 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T14:38:02+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 6 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T14:41:44+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='0' WHERE `id` = 6 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T14:41:55+08:00 ] 127.0.0.1 /shop/index.php/Admin/Admin/switchState/id/6/state/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select c.* from shop_admin_role a LEFT JOIN shop_role_privilege b on a.role_id=b.role_id LEFT JOIN shop_privilege c on b.pri_id=c.id where a.admin_id=6 AND  `module_name`="Admin" AND `controller_name`="Admin" AND `action_name`="switchState" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `shop_admin` SET `is_use`='1' WHERE `id` = 6 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
